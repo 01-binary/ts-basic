@@ -22,12 +22,12 @@
 // const b2 = add2(10, 20, 30);
 // const c2 = add2(10);
 
-function add3(n1: number, ...nums: number[]): number {
-  let totalOfNums = 0;
-  for (let key in nums) {
-    totalOfNums += nums[key];
-  }
-  return n1 + totalOfNums;
-}
+// function add3(n1: number, ...nums: number[]): number {
+//   let totalOfNums = 0;
+//   for (let key in nums) {
+//     totalOfNums += nums[key];
+//   }
+//   return n1 + totalOfNums;
+// }
 
-const result = add3(10, 20, 30, 40);
+// const result = add3(10, 20, 30, 40);
