@@ -20,7 +20,6 @@ printResult(5);
 
 // * Optional Parameter
 function add2(n1: number, n2?: number): number {
-  // ?는 나중에 추가
   if (!n2) return n1;
   return n1 + n2;
 }
