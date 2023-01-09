@@ -1,8 +1,6 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const hello_1 = require("./hello");
-const str = 'TS';
-const hi = () => {
-    console.log(`Hello ${str}!`);
+import { helloFunc } from './hello';
+var str = 'TS';
+var hi = function () {
+  console.log('Hello '.concat(str, '!'));
 };
-(0, hello_1.helloFunc)();
+helloFunc();
