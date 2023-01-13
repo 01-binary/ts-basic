@@ -67,7 +67,7 @@ const person2: Person = { name: 'ljs', age: 'twenty' };
 //   job: 'developer';
 // }
 
-// interface KorAndDev extends Person, Developer {}
+// interface KorAndDev extends Korean, Developer {}
 
 // interface KorAndDev {
 //   name: string;
